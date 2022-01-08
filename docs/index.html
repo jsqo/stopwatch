@@ -21,7 +21,32 @@
 	<header>
 		<h2>JSqo's Stopwatch</h2>
 	</header>
+
 	<main>
+		<div class="stopwatch">
+			<div class="top">
+				<div class="heading">
+					<h3>Let the game begin!</h3>
+				</div>
+			</div>
+			<div class="middle">
+				<div class="time">
+					<span id="span_hours">00</span>
+					<span>:</span>
+					<span id="span_minutes">00</span>
+					<span>:</span>
+					<span id="span_seconds">00</span>
+					<span id="span_ms">00</span>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="buttons">
+					<button name="start" onclick="startStopwatch()">Start</button>
+					<button name="stop" onclick="stopStopwatch()">Stop</button>
+					<button name="reset" onclick="resetStopwatch()">Reset</button>
+				</div>
+			</div>
+		</div>
 	</main>
 
 	<footer>

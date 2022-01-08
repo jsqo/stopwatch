@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+body {
+  margin: 0;
+}
+
+header, footer {
+  text-align: center;
+  padding: 40px;
+  background-color: mediumslateblue;
+  color: #fff;
+}
+
+main {
+  min-height: 100%;
+  padding: 80px 40px;
+}
+
+div.stopwatch {
+  margin: auto;
+  max-width: 640px;
+  box-shadow: 0px 0px 20px #ddd;
+  border: 1px solid #ddd;
+}
+div.stopwatch div.top {
+  padding: 10px 30px;
+  padding-top: 20px;
+  text-align: center;
+}
+div.stopwatch div.middle {
+  padding: 32px 20px;
+  border: 0px solid #ddd;
+  border-width: 1px 0px;
+  text-align: center;
+}
+div.stopwatch div.middle div.time {
+  font-size: 72px;
+}
+div.stopwatch div.middle div.time > span {
+  display: inline-block;
+  vertical-align: middle;
+}
+div.stopwatch div.middle div.time > span#span_ms {
+  font-size: 40px;
+  background-color: mediumslateblue;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+div.stopwatch div.bottom {
+  padding: 30px;
+}
+div.stopwatch div.bottom > div.buttons {
+  text-align: center;
+}
+div.stopwatch div.bottom > div.buttons > button {
+  padding: 10px 20px;
+  margin: 0px 6px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 0px;
+  border: 2px solid mediumslateblue;
+  color: mediumslateblue;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+div.stopwatch div.bottom > div.buttons > button:hover, div.stopwatch div.bottom > div.buttons > button:focus {
+  background-color: mediumslateblue;
+  color: #fff;
+}
