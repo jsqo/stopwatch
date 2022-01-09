@@ -49,7 +49,7 @@ div.stopwatch div.middle div.time > span {
   display: inline-block;
   vertical-align: middle;
 }
-div.stopwatch div.middle div.time > span#span_ms {
+div.stopwatch div.middle div.time > span#span_cs {
   font-size: 40px;
   background-color: mediumslateblue;
   color: #fff;
@@ -63,6 +63,7 @@ div.stopwatch div.bottom > div.buttons {
   text-align: center;
 }
 div.stopwatch div.bottom > div.buttons > button {
+  font-family: inherit;
   padding: 10px 20px;
   margin: 0px 6px;
   font-size: 16px;
@@ -72,6 +73,7 @@ div.stopwatch div.bottom > div.buttons > button {
   color: mediumslateblue;
   background-color: #fff;
   transition: all 0.3s;
+  cursor: pointer;
 }
 div.stopwatch div.bottom > div.buttons > button:hover, div.stopwatch div.bottom > div.buttons > button:focus {
   background-color: mediumslateblue;
